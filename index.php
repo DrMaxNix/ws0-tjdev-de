@@ -1,3 +1,3 @@
 <?php
-	echo("<pre>" . print_r($_SERVER, true) . "</pre>");
+	echo("your page path: <code>" . $_SERVER["REDIRECT_URL"] . "</code>");
 ?>
